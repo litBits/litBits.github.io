@@ -1,5 +1,5 @@
 function changeImage_first() {
-	var source = String(document.getElementById("img-click_first").src);
+	var source = String(document.getElementById("img-click_first").src();
 	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
 		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
 	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_1.png")
