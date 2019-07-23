@@ -41,7 +41,7 @@ img.diagram {
 	float: right;
  	padding: 8px;
   	border: 5px solid #375990;
-  	margin: 13px;
+  	margin: 0 13px 0 13px;
 }
 
 ol {
