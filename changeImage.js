@@ -4,22 +4,22 @@ function changeImage_first() {
 	
 	switch (source) {
 		case "https://litBits.github.io/Cells/first-cells/empty-breadboard.png": {
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
+			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/first-cell_1.png";
 			break; }
 		case "https://litBits.github.io/Cells/first-cells/first-cell_1.png": {
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_2.png";
+			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/first-cell_2.png";
 			break; }
 		case "https://litBits.github.io/Cells/first-cells/first-cell_2.png": {
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_3.png";
+			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/first-cell_3.png";
 			break; }
 		case "https://litBits.github.io/Cells/first-cells/first-cell_3.png": {
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_complete.png";
+			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/first-cell_complete.png";
 			break; }
 		case "https://litBits.github.io/Cells/first-cells/first-cell_complete.png": {
-			document.getElementById("img-click_first").src = "Cells/first-cells/empty-breadboard.png";
+			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/empty-breadboard.png";
 			break; }
 		default:
-			document.getElementById("first-section").innerHTML = "switch ERROR3";
+			document.getElementById("first-section").innerHTML = "switch ERROR";
 	}
 }
 
