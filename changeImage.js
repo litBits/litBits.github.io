@@ -3,7 +3,7 @@ function changeImage_first() {
 	if (image.getAttribute('src') == "Cells/first-cells/empty-breadboard.png")
 		image.src = "Cells/first-cells/first-cell_1.png";
 	else
-		document.getElementById("first-section").innerHTML = "ERROR";
+		document.getElementById("first-section").innerHTML = image.getAttribute('src');
 }
 
 function changeImage_final() {
