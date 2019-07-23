@@ -2,21 +2,21 @@ function changeImage_first() {
 	var source = document.getElementById("img-click_first").src;
 	switch(source) {
 		case "https://litBits.github.io/Cells/first-cells/empty-breadboard.png":
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
+			source = "Cells/first-cells/first-cell_1.png";
 			break;
 		case "https://litBits.github.io/Cells/first-cells/first-cell_1.png":
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_2.png";
+			source = "Cells/first-cells/first-cell_2.png";
 			break;
 		case "https://litBits.github.io/Cells/first-cells/first-cell_2.png":
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_3.png";
+			source = "Cells/first-cells/first-cell_3.png";
 			break;
 		case "https://litBits.github.io/Cells/first-cells/first-cell_3.png":
-			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_complete.png";
+			source = "Cells/first-cells/first-cell_complete.png";
 			break;
 		case "https://litBits.github.io/Cells/first-cells/first-cell_complete.png":
-			document.getElementById("img-click_first").src = "Cells/first-cells/empty-breadboard.png";
-			break;
+			source = "Cells/first-cells/empty-breadboard.png";
 	}
+	document.getElementById("img-click_first").src = source;
 }
 
 function changeImage_final() {
