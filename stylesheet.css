@@ -27,7 +27,7 @@ li.nav-element a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 10px;
+	padding: 13px;
 	text-decoration: none;
 }
 
@@ -39,6 +39,10 @@ img.diagram {
 	max-width: 38%;
 	max-height: 38%;
 	float: right;
+	width: 320px;
+ 	padding: 8px;
+  	border: 5px solid #375990;
+  	margin-right: 13px;
 }
 
 ol {
