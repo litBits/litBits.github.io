@@ -1,6 +1,7 @@
 function changeImage_first() {
 	var source = document.getElementById("img-click_first").src;
-	document.getElementById("first-section").innerHTML = source;
+	/*document.getElementById("first-section").innerHTML = source;*/
+	document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
 	switch(source) {
 		case "https://litBits.github.io/Cells/first-cells/empty-breadboard.png": {
 			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/first-cell_1.png";
