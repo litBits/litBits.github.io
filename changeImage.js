@@ -1,23 +1,23 @@
 function changeImage_first() {
 	var source = document.getElementById("img-click_first").src;
 	switch(source) {
-		case 'https://litBits.github.io/Cells/first-cells/empty-breadboard.png': {
+		case "https://litBits.github.io/Cells/first-cells/empty-breadboard.png": {
 			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/first-cell_1.png";
 			break;
 		}
-		case 'https://litBits.github.io/Cells/first-cells/first-cell_1.png': {
+		case "https://litBits.github.io/Cells/first-cells/first-cell_1.png": {
 			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/first-cell_2.png";
 			break;
 		}
-		case 'https://litBits.github.io/Cells/first-cells/first-cell_2.png': {
+		case "https://litBits.github.io/Cells/first-cells/first-cell_2.png": {
 			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/first-cell_3.png";
 			break;
 		}
-		case 'https://litBits.github.io/Cells/first-cells/first-cell_3.png': {
+		case "https://litBits.github.io/Cells/first-cells/first-cell_3.png": {
 			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/first-cell_complete.png";
 			break;
 		}
-		case 'https://litBits.github.io/Cells/first-cells/first-cell_complete.png': {
+		case "https://litBits.github.io/Cells/first-cells/first-cell_complete.png": {
 			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/empty-breadboard.png";
 			break;
 		}
@@ -27,19 +27,19 @@ function changeImage_first() {
 function changeImage_final() {
 	var source = document.getElementById("img-click_final").src;
 	switch(source) {
-		case 'https://litBits.github.io/Cells/final-cells/final-cell_1.png': {
+		case "https://litBits.github.io/Cells/final-cells/final-cell_1.png": {
 			document.getElementById("img-click_final").src = "Cells/final-cells/final-cell_2.png";
 			break;
 		}
-		case 'https://litBits.github.io/Cells/final-cells/final-cell_2.png': {
+		case "https://litBits.github.io/Cells/final-cells/final-cell_2.png": {
 			document.getElementById("img-click_final").src = "Cells/final-cells/final-cell_3.png";
 			break;
 		}
-		case 'https://litBits.github.io/Cells/final-cells/final-cell_3.png': {
+		case "https://litBits.github.io/Cells/final-cells/final-cell_3.png": {
 			document.getElementById("img-click_final").src = "Cells/final-cells/final-cell_complete.png";
 			break;
 		}
-		case 'https://litBits.github.io/Cells/final-cells/final-cell_complete.png': {
+		case "https://litBits.github.io/Cells/final-cells/final-cell_complete.png": {
 			document.getElementById("img-click_final").src = "Cells/final-cells/final-cell_1.png";
 			break;
 		}
