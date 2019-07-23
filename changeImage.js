@@ -2,6 +2,8 @@ function changeImage_first() {
 	var source = document.getElementById("img-click_first").src();
 	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
 		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
+	else
+		document.getElementById("first-section").innerHTML = "Error " + source;
 	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_1.png")
 		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_2.png";
 	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_2.png")
