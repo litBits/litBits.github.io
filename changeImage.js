@@ -1,6 +1,8 @@
 function changeImage_first() {
+	 
 		var source = document.getElementById("img-click_first").src;
-		switch(source) {
+		document.getElementById("header-1").innerHTML =	source;
+		/*switch(source) {
 			case 'litBits.github.io/Cells/first-cells/empty-breadboard.png': {
 				document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
 				break;
@@ -46,7 +48,6 @@ function changeImage_final() {
 		}
 }
 
-/*Cells/mid-cells/cell_*/
 function changeImage_mid() {
 		var source = document.getElementById("img-click_mid").src;
 		switch(source) {
@@ -90,7 +91,7 @@ function changeImage_mid() {
 				document.getElementById("img-click_mid").src = "Cells/mid-cells/cell_1.png";
 				break;
 			}
-		}
+		}*/
 	}
 
 
