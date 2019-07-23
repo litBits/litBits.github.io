@@ -8,7 +8,7 @@ function changeImage_first() {
 		return;
 	}
 	else if (source == "Cells/first-cells/first-cell_1.png") {
-		document.getElementById("img-click_first").src = "Cells/first-cells/Cells/first-cells/first-cell_2.png";
+		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_2.png";
 		return;
 	}
 	else {
