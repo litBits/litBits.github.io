@@ -19,7 +19,7 @@ function changeImage_first() {
 			break;
 			document.getElementById("img-click_first").src = "Cells/first-cells/empty-breadboard.png";
 		default :
-			document.getElementById("first-section").innerHTML = "switch ERROR";
+			document.getElementById("first-section").innerHTML = "switch ERROR1";
 	}
 }
 
