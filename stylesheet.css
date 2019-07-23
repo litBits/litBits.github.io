@@ -36,10 +36,9 @@ li.nav-element a:hover {
 }
 
 img.diagram {
-	max-width: 62%;
-	max-height: 62%;
+	max-width: 38%;
+	max-height: 38%;
 	float: right;
-	width: 320px;
  	padding: 8px;
   	border: 5px solid #375990;
   	margin-right: 13px;
