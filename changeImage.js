@@ -11,7 +11,7 @@ function changeImage_first() {
 		return;
 	}
 	else {
-		document.getElementById("first-section").innerHTML = "if...else ERROR1";
+		document.getElementById("first-section").innerHTML = source;
 		return;
 	}
 	/*switch (source) {
