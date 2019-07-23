@@ -1,9 +1,10 @@
 function changeImage_first() {
 	var image = document.getElementById("img-click_first");
-	if (image.getAttribute('src') == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
+	var source = image.getAttribute('src');
+	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
 		image.src = "Cells/first-cells/first-cell_1.png";
 	else
-		document.getElementById("first-section").innerHTML = "ERROR";
+		document.getElementById("first-section").innerHTML = "ERROR1";
 }
 
 function changeImage_final() {
