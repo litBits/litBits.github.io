@@ -1,7 +1,6 @@
 function changeImage_first() {
 	var source = document.getElementById("img-click_first").src;
-	document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_2.png";
-	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
+	if (document.getElementById("img-click_first").src == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
 		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
 	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_1.png")
 		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_2.png";
