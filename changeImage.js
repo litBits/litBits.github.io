@@ -2,38 +2,41 @@ function changeImage_first() {
 	var image = document.getElementById("img-click_first");
 	var source = image.getAttribute('src');
 	
-	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png" || source == "Cells/first-cells/empty-breadboard.png") {
-		image.src = "Cells/first-cells/first-cell_1.png";
+	/*if (source ==  || source == ) {
+		
 		document.getElementById("first-section").innerHTML = source;
 		return;
 	}
-	else if (source == "Cells/first-cells/first-cell_1.png") {
-		image.src = "Cells/first-cells/first-cell_2.png";
+	else if (source == ) {
+		
 		return;
 	}
 	else {
 		document.getElementById("first-section").innerHTML = "ERROR1";
 		return;
-	}
-	/*switch (source) {
-		case : {
-			
+	}*/
+	switch (source) {
+		case "https://litBits.github.io/Cells/first-cells/empty-breadboard.png": {
+			image.src = "Cells/first-cells/first-cell_1.png";
 			break; }
-		case : {
-			
+		case "Cells/first-cells/empty-breadboard.png": {
+			image.src = "Cells/first-cells/first-cell_1.png";
+			break; }
+		case "Cells/first-cells/first-cell_1.png": {
+			image.src = "Cells/first-cells/first-cell_2.png";
 			break; }
 		case "Cells/first-cells/first-cell_2.png": {
-			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/first-cell_3.png";
+			image.src = "Cells/first-cells/Cells/first-cells/first-cell_3.png";
 			break; }
 		case "Cells/first-cells/first-cell_3.png": {
-			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/first-cell_complete.png";
+			image.src = "Cells/first-cells/first-cell_complete.png";
 			break; }
 		case "Cells/first-cells/first-cell_complete.png": {
-			document.getElementById("img-click_first").src = "https://litBits.github.io/Cells/first-cells/Cells/first-cells/empty-breadboard.png";
+			image.src = "Cells/first-cells/empty-breadboard.png";
 			break; }
 		default:
 			document.getElementById("first-section").innerHTML = "switch ERROR";
-	}*/
+	}
 }
 
 function changeImage_final() {
