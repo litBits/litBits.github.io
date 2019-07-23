@@ -1,6 +1,6 @@
 function changeImage_first() {
 	var source = document.getElementById("img-click_first").src;
-	source = JSON.stringify(src);
+	source = JSON.stringify(source);
 	switch(source) {
 		case "https://litBits.github.io/Cells/first-cells/empty-breadboard.png":
 			document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
