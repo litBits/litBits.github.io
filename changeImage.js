@@ -2,12 +2,18 @@ function changeImage_first() {
 	var image = document.getElementById("img-click_first");
 	var source = image.getAttribute('src');
 	
-	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
+	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png") {
 		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
-	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_1.png")
+		return;
+	}
+	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_1.png") {
 		document.getElementById("img-click_first").src = "Cells/first-cells/Cells/first-cells/first-cell_2.png";
-	else
+		return;
+	}
+	else {
 		document.getElementById("first-section").innerHTML = "if...else ERROR";
+		return;
+	}
 	/*switch (source) {
 		case : {
 			
