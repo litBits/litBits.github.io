@@ -24,7 +24,7 @@ function changeImage_first() {
 }
 
 function changeImage_mid() {
-	var image = document.getElementById("img-click_first");
+	var image = document.getElementById("img-click_mid");
 	var source = image.getAttribute('src');
 	
 	switch(source) {
@@ -69,12 +69,12 @@ function changeImage_mid() {
 			break;
 		}
 		default:
-			document.getElementById("first-section").innerHTML = "switch ERROR: mid";
+			document.getElementById("second-section").innerHTML = "switch ERROR: mid";
 	}
 }
 
 function changeImage_final() {
-	var image = document.getElementById("img-click_first");
+	var image = document.getElementById("img-click_final");
 	var source = image.getAttribute('src');
 	
 	switch(source) {
@@ -95,6 +95,6 @@ function changeImage_final() {
 			break;
 		}
 		default:
-			document.getElementById("first-section").innerHTML = "switch ERROR: final";
+			document.getElementById("third-section").innerHTML = "switch ERROR: final";
 	}
 }
