@@ -1,9 +1,9 @@
 function changeImage_first() {
 	var image = document.getElementById("img-click_first");
 	if (image.getAttribute('src') == "Cells/first-cells/empty-breadboard.png")
-		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
+		image.src = "Cells/first-cells/first-cell_1.png";
 	else
-		document.getElementById("first-section").innerHTML = "Error1";
+		document.getElementById("first-section").innerHTML = imgae.getAttribute('src');
 }
 
 function changeImage_final() {
