@@ -1,17 +1,9 @@
 function changeImage_first() {
-	var source = document.getElementById("img-click_first").src();
-	if (source == "https://litBits.github.io/Cells/first-cells/empty-breadboard.png")
+	var source = document.getElementById("img-click_first").src;
+	if ("https://litBits.github.io/Cells/first-cells/empty-breadboard.png" == source)
 		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_1.png";
 	else
 		document.getElementById("first-section").innerHTML = "Error " + source;
-	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_1.png")
-		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_2.png";
-	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_2.png")
-		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_3.png";
-	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_3.png")
-		document.getElementById("img-click_first").src = "Cells/first-cells/first-cell_complete.png";
-	else if (source == "https://litBits.github.io/Cells/first-cells/first-cell_complete.png")
-		document.getElementById("img-click_first").src = "Cells/first-cells/empty-breadboard.png";
 }
 
 function changeImage_final() {
