@@ -1,0 +1,85 @@
+<!--  -->
+<!DOCTYPE html>
+  <head>
+    <meta url=https://litBits.github.io/hardware.html" charset="utf-8">
+    <title>litBits Hardware</title>
+	<link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+	<header>
+		<nav class="nav-menu">
+		 <ul  class="nav-list">
+		   <li class="nav-element"><a href="home.html">Home</a></li>
+		   <li class="nav-element"><a href="background.html">Background Info</a></li>
+		   <li class="nav-element"><a href="hardware.html">Hardware Guide</a></li>
+		   <li class="nav-element"><a href="software.html">Software Guide</a></li>
+		   <li class="nav-element"><a href="">Implementaion</a></li>
+		   <li class="nav-element"><a href="tools.html">Tools & Reference</a></li>
+		   <li class="nav-element"><a href="explore.html">Explore More</a></li>
+		 </ul>
+		</nav>
+	</header>
+	
+	<!-- Page Header/Welcome Message -->
+	<h1 id="hardware" class="guide-header">Hardware Guide</h1>
+	
+	<!-- List of Materials -->
+	<h2 class="materials-header">Materials</h1>
+	<ul class="materials-list">
+		<li>x1 Arduino Uno</span></li>
+		<li>x1 Full-Size Breadboard</span></li>
+		<li>Jumper Cables</span></li>
+			<ul>
+				<li>x2 Short</span></li>
+				<li>x8 Long</span></li>
+			</ul>
+		<li>Wires</span></li>
+			<ul>
+				<li>x7 Red</span></li>
+				<li>x8 Black</span></li>
+			</ul>
+		<li>x8 5mm, 2-Pin LEDs</span></li>
+		<li>x8 PNP Transistors (PN 2222)</span></li>
+	</ul>
+	
+	<!-- Section 1: THE FIRST CELL -->
+	<h2>The First Cell</h2>
+	<ol>
+		<img id="img-click_first" class="diagram" onclick="changeImage_first()" src="Cells/first-cells/empty-breadboard.png">
+		<li>Power Line--Red wire from 1d to 37e (H right-shift one from power line, V down-shift 9) (power line to power line)</li>
+		<li>Transistor (looking at flat face)
+			<ol style="list-style-type:lower-roman;">
+				<li>Left (in) pin to 1b (H left-shift two from power line) (power line)</li>
+				<li>Mid (switch) pin to 3b (V down-shift 2) (switch line)</li>
+				<li>Right (out) pin to 5b (V down-shift 2) (junction line)</li>
+			</ol>
+		</li>	
+		<li>LED
+			<ol style="list-style-type:lower-roman;">
+				<li>Long (in) pin to 5a (H left-shift one from transistor out pin) (junction line)</li>
+				<li>b.	Short (out) pin to 6a (V down-shift 2) (ground line)</li>
+			</ol>
+		</li>
+		<li>Ground Line--Black wire from 6e to ‘-’ strip (ground line to ground strip)</li>
+	</ol>
+	
+	
+	
+	<!-- Section 2: THE MID CELLS<div -->
+	<h2>The Mid Cells</h2>
+	<ol>
+		<img id="img-click_mid" class="diagram" onclick="changeImage_mid()" src="Cells/mid-cells/cell_1.png">
+		<li>For the 2nd - 7th LED cell, repeat steps 1-4.</li>
+	</ol>
+	
+	<!-- Section 3: THE FINAL CELL -->
+	<h2>The Final Cell</h2>
+	<ol>
+		<img id="img-click_final" class="diagram" onclick="changeImage_final()" src="Cells/final-cells/final-cell_1.png">
+		<li>For the 8th and final LED cell, repeat steps 2-4.</li>
+	</ol>
+	
+	<script src="changeImage.js"></script>
+  </body>
+</html>

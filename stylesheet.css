@@ -1,0 +1,50 @@
+/* CSS Reference
+	Quickhand -
+		margin: top right bottom left
+		border: width type color  
+	Defaults - 
+		p.font-size: 16px
+*/
+/* Menu Navigation */
+ul.nav-list {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+ul.materials-list {
+}
+
+li.nav-element {
+	float: left;
+}
+
+li.nav-element a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+li.nav-element a:hover {
+	background-color: #111111;
+}
+
+img.diagram {
+	max-width: 38%;
+	max-height: 38%;
+	float: right;
+}
+
+ol {
+	overflow: hidden;
+}
+
+.guide-header {
+	text-align: center;
+}
