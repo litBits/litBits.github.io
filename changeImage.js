@@ -84,3 +84,53 @@ function changeImage_final() {
 			document.getElementById("third-section").innerHTML = "switch ERROR: final";
 	}
 }
+function zoomIn_first(event) {
+  var element = document.getElementById("first-overlay");
+  var diagram = document.getElementById("img-click_first").getAttribute('src');
+  element.style.display = "inline-block";
+  element.style['background-image'] = "url(\"" + diagram + "\")";
+  var img = document.getElementById("imgZoom");
+  var posX = event.offsetX ? (event.offsetX) : event.pageX - img.offsetLeft;
+  var posY = event.offsetY ? (event.offsetY) : event.pageY - img.offsetTop;
+  element.style.backgroundPosition=(-posX*4.3)+"px "+(-posY*4.1)+"px";
+
+}
+
+function zoomOut_first() {
+  var element = document.getElementById("first-overlay");
+  element.style.display = "none";
+}
+
+function zoomIn_mid(event) {
+  var element = document.getElementById("mid-overlay");
+  var diagram = document.getElementById("img-click_mid").getAttribute('src');
+  element.style.display = "inline-block";
+  element.style['background-image'] = "url(\"" + diagram + "\")";
+  var img = document.getElementById("imgZoom");
+  var posX = event.offsetX ? (event.offsetX) : event.pageX - img.offsetLeft;
+  var posY = event.offsetY ? (event.offsetY) : event.pageY - img.offsetTop;
+  element.style.backgroundPosition=(-posX*4.3)+"px "+(-posY*4.1)+"px";
+
+}
+
+function zoomOut_mid() {
+  var element = document.getElementById("mid-overlay");
+  element.style.display = "none";
+}
+
+function zoomIn_final(event) {
+  var element = document.getElementById("final-overlay");
+  var diagram = document.getElementById("img-click_final").getAttribute('src');
+  element.style.display = "inline-block";
+  element.style['background-image'] = "url(\"" + diagram + "\")";
+  var img = document.getElementById("imgZoom");
+  var posX = event.offsetX ? (event.offsetX) : event.pageX - img.offsetLeft;
+  var posY = event.offsetY ? (event.offsetY) : event.pageY - img.offsetTop;
+  element.style.backgroundPosition=(-posX*4.3)+"px "+(-posY*4.1)+"px";
+
+}
+
+function zoomOut_final() {
+  var element = document.getElementById("final-overlay");
+  element.style.display = "none";
+}
