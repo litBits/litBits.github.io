@@ -13,10 +13,11 @@ ul.nav-list {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
-	background-color: #333333;
+	background-color: #375990;
 }
 
 ul.materials-list {
+	color: #0D1522;
 }
 
 li.nav-element {
@@ -32,7 +33,7 @@ li.nav-element a {
 }
 
 li.nav-element a:hover {
-	background-color: #111111;
+	background-color: #223759;
 }
 
 img.diagram {
@@ -42,12 +43,42 @@ img.diagram {
  	padding: 8px;
   	border: 5px solid #375990;
   	margin: 0 13px 0 13px;
+	cursor: pointer;
 }
 
 ol {
 	overflow: hidden;
+	color: #0D1522;
 }
 
 .guide-header {
 	text-align: center;
+	color: #0D1522;
+}
+
+.zoomOverlay{
+  border: 2px solid #375990;
+  width: 377px;
+  height: 233px;
+  float: right;
+  position: absolute;
+  right: 551px;
+  top: 0;
+  z-index: 3;
+  background-repeat: no-repeat;
+}
+#first-overlay{
+	display: none;
+}
+#mid-overlay{
+	display: none;
+}
+#final-overlay{
+	display: none;
+}
+h1{
+	color: #0D1522;
+}
+h2{
+	color: #0D1522;
 }
