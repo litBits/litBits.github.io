@@ -134,3 +134,20 @@ function zoomOut_final() {
   var element = document.getElementById("final-overlay");
   element.style.display = "none";
 }
+
+function zoomIn_arduino(event) {
+  var element = document.getElementById("arduino-overlay");
+  var diagram = document.getElementById("img-click_arduino").getAttribute('src');
+  element.style.display = "inline-block";
+  element.style['background-image'] = "url(\"" + diagram + "\")";
+  var img = document.getElementById("imgZoom");
+  var posX = event.offsetX ? (event.offsetX) : event.pageX - img.offsetLeft;
+  var posY = event.offsetY ? (event.offsetY) : event.pageY - img.offsetTop;
+  element.style.backgroundPosition=(-posX*4.3)+"px "+(-posY*4.1)+"px";
+
+}
+
+function zoomOut_arduino() {
+  var element = document.getElementById("arduino-overlay");
+  element.style.display = "none";
+}
