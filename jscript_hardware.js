@@ -85,7 +85,7 @@ function changeImage_final() {
 	}
 }
 function changeImage_arduino() {
-	var image = document.getElementById("img-click_arduino").src;
+	var image = document.getElementById("img-click_arduino");
 	var source = image.getAttribute('src');
 	switch(source) {
 		case "Jumpers/no-connections.png": {
