@@ -91,6 +91,19 @@
 		
 		<li>For the 8th and final LED cell, repeat steps 2-4.</li>
 	</ol>
+								   
+	<!-- Section 4: CONNECTING TO THE ARDUINO -->
+	<h2 id="fourth-section">Connecting to the Arduino</h2>
+	<ol start="7">
+		<div style="position:relative;">
+			<img id="img-click_arduino" class="diagram" onmouseover="" onclick="changeImage_arduino()" onmousemove="zoomIn_arduino(event)" onmouseout="zoomOut_arduino()" src="Jumpers/no-connections.png"/>
+			<div id="arduino-overlay" class="zoomOverlay"></div>
+		</div>
+		
+		<li>Connect cell switches 1-8 to “DIGITAL (PWM~)” sockets 9-2 respectively (i.e. cell switch-pin 8 to socket 2, cell switch-pin 9 to socket 3, and so on)</li>
+		<li>Ground jumper cable to “GND” socket</li>
+		<li>Power jumper cable to “5V” socket</li>
+	</ol>
 	
 	<script src="jscript_hardware.js"></script>
   </body>
