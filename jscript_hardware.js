@@ -84,6 +84,45 @@ function changeImage_final() {
 			document.getElementById("third-section").innerHTML = "switch ERROR: final";
 	}
 }
+function changeImage_arduino() {
+	var image = document.getElementById("img-click_arduino").src;
+	var source = image.getAttribute('src');
+	switch(source) {
+		case "Jumpers/no-connections.png": {
+			image.src = "Jumpers/cell8-pin2.png";
+			break; }
+		case "Jumpers/cell8-pin2.png": {
+			image.src = "Jumpers/cell7-pin3.png";
+			break; }
+		case "Jumpers/cell7-pin3.png": {
+			image.src = "Jumpers/cell6-pin4.png";
+			break; }
+		case "Jumpers/cell6-pin4.png": {
+			image.src = "Jumpers/cell5-pin5.png";
+			break; }
+		case "Jumpers/cell5-pin5.png": {
+			image.src = "Jumpers/cell4-pin6.png";
+			break; }
+		case "Jumpers/cell4-pin6.png": {
+			image.src = "Jumpers/cell3-pin7.png";
+			break; }
+		case "Jumpers/cell3-pin7.png": {
+			image.src = "Jumpers/cell2-pin8.png";
+			break; }
+		case "Jumpers/cell2-pin8.png": {
+			image.src = "Jumpers/cell1-pin9.png";
+			break; }
+		case "Jumpers/cell1-pin9.png": {
+			image.src = "Jumpers/ground-GND.png";
+			break; }
+		case "Jumpers/ground-GND.png": {
+			image.src = "Jumpers/complete_diagram.png";
+			break; }
+		case "Jumpers/complete_diagram.png": {
+			image.src = "Jumpers/no-connections.png";
+			break; }
+	}
+}
 function zoomIn_first(event) {
   var element = document.getElementById("first-overlay");
   var diagram = document.getElementById("img-click_first").getAttribute('src');
